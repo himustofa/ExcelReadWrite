@@ -40,10 +40,10 @@ public class MyMain {
         List<Contact> contacts = new ArrayList<>();
 
         try {
-            contacts.add(new Contact("Sylvain", "Saurel", "sylvain.saurel@gmail.com", "17/01/1980"));
-            contacts.add(new Contact("Albert", "Dupond", "sylvain.saurel@gmail.com", "17/08/1989"));
-            contacts.add(new Contact("Pierre", "Dupont", "sylvain.saurel@gmail.com", "17/07/1956"));
-            contacts.add(new Contact("Mariano", "Diaz", "sylvain.saurel@gmail.com", "17/05/1988"));
+            contacts.add(new Contact("Mamun", "Islam", "mamun@gmail.com", "17/01/1980"));
+            contacts.add(new Contact("Nasir", "Hossain", "nasir@gmail.com", "17/08/1989"));
+            contacts.add(new Contact("Fuad", "Islam", "fuad@gmail.com", "17/07/1956"));
+            contacts.add(new Contact("Abdur", "Rahman", "abrahman@gmail.com", "17/05/1988"));
 
             Workbook workbook = new XSSFWorkbook();
             Sheet sheet = workbook.createSheet("Contacts");
